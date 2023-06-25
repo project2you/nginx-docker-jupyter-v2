@@ -27,3 +27,7 @@ docker run -it --rm \
   --volume /var/run/docker.sock:/var/run/docker.sock \
 swarmpit/install:1.9
 
+#
+docker swarm leave --force
+
+
